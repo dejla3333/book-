@@ -1,0 +1,71 @@
+:root {
+  --brown: #6f4e37;
+  --brown-light: #8b5e3c;
+}
+
+/* Header */
+.site-header {
+  background-color: var(--brown);
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.site-header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+  color: #f0c27b;
+}
+
+/* کارت‌ها */
+.card {
+  min-height: 360px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.author-name {
+  font-weight: 700;
+}
+
+.btn-details {
+  width: 100%;
+}
+
+/* مودال تم قهوه‌ای */
+.bg-brown {
+  background-color: var(--brown);
+}
+
+/* واکنش‌گرا */
+@media (max-width: 768px) {
+  .site-header .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .main-nav {
+    margin-top: 0.5rem;
+  }
+}

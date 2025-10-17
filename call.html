@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>تماس با ما</title>
+  <link rel="stylesheet" href="call.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <h1>کتاب باز</h1>
+    <nav>
+      <a href="index.html">خانه</a>
+      <a href="writer.html">نویسندگان</a>
+      <a href="call.html">تماس با ما</a>
+    </nav>
+  </header>
+
+  
+  <!-- فرم تماس -->
+  <section class="contact">
+    <h2>تماس با ما</h2>
+    <p class="contact-intro">برای پرسش، پیشنهاد یا همکاری با ما در تماس باشید.</p>
+
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="name">نام</label>
+        <input type="text" id="name" name="name" placeholder="نام خود را وارد کنید" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">ایمیل</label>
+        <input type="email" id="email" name="email" placeholder="ایمیل شما" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">پیام</label>
+        <textarea id="message" name="message" rows="5" placeholder="پیام خود را بنویسید..." required></textarea>
+      </div>
+
+      <button type="submit" class="contact-btn">ارسال پیام</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+ <!-- Footer -->
+  <footer>
+    <p>📞 تماس: 021-123456 | ✉️ ایمیل: info@bookshop.com</p>
+    <p>
+      <a href="#">اینستاگرام</a> | 
+      <a href="#">تلگرام</a> | 
+      <a href="#">ایکس</a>
+    </p>
+    <p>© 2025 فروشگاه کتاب</p>
+  </footer>
+
+  <script src="javascript/call.js"></script>
+</body>
+</html>
